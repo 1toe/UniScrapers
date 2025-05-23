@@ -14,7 +14,7 @@ def leer_urls_base(archivo_links):
     except Exception as e:
         print(f"Error al leer el archivo de URLs: {e}")
         return []
-
+ 
 def obtener_filtros_sellos():
     """Obtiene los filtros de sellos alimenticios"""
     return [
